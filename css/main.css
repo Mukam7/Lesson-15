@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1770px;
+    display: flex;
+
+}
+
+.container-left {
+    width: 50%;
+    background-color: #1d2d5b;
+
+}
+.container-left img{
+    width:90%;
+    height: 99.290vh;
+}
+
+.container-right p{
+    font-family: inherit , sans-serif;
+    margin-top: 10%;
+    margin-left: 35%;
+    color: #333;
+    font-weight: 500px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+.container-right span {
+    padding-left: 70px;
+}
+.c-r-logo img{
+    height: 90px;
+    padding-left: 45%;
+    margin-top: 10px;
+}
+
+    .r-main p{
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 20px;
+    font-size: 16px;
+    }
+
+label{
+    display: block;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.register{
+    padding: 20px 200px;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 7px;
+    border: 1.5px solid #ccc;
+}
+
+.bottom{
+    padding-top: 10px;
+}
+
+input:hover{
+    border: 2px solid darkcyan;
+}
+
+.btn a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.btn button{
+    width: 300px;
+    height: 45px;
+    background-color: #1d2d5b;
+}
